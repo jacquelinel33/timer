@@ -3,7 +3,7 @@ let inputArr = process.argv.slice(2);
 
 let timer = () => {
   for (let time of inputArr) {
-    let delay = time;
+    let delay = time + 00;
     setTimeout(() => {
       process.stdout.write('beep\n');
     }, delay);
